@@ -5,7 +5,7 @@
 <h3 align="center">Objetivos do Projeto</h3>
 
 <ol>
-    <li>1. Construir uma API com NodeJS e Typescript.</li>
+    <li>Construir uma API com NodeJS e Typescript.</li>
     <li>Gerar Hashes únicos para cada entrada.</li>
     <li>Conectar as entradas com os hashes gerados.</li>
 </ol>
@@ -15,7 +15,7 @@
 <h3 align="center">Requisitos Básicos</h3>
 
 <p align="left">
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ter instalado NodeJS.
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ter instalado NodeJS.<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Editor de texto da sua escolha.
 </p>
 
@@ -46,11 +46,13 @@
 <h3 align="center">Iniciando o Projeto</h3>
 
 <p align="left">
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MongoDB é um banco de dados NoSQL orientado à documentos. Pode ser utilizado instalado localmente ou em Cloud.<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No projeto vai ser utilizado em Cloud.<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MongoDB é um banco de dados NoSQL orientado à documentos. 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pode ser utilizado instalado localmente ou em Cloud.<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No projeto vai ser utilizado em Cloud.<br><br>
+
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Build a Cluster.<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Free.<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cluster Name: urlShortner-DIO
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cluster Name: urlShortener-DIO
 </p>
 
 <pre>npm init</pre>
@@ -58,5 +60,32 @@
 <pre>npm i nodemon express cors</pre>
 
 <p align="left">
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Criar a pasta: src | Onde vai ter o código fonte.
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Criar a pasta: src<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Onde vai ter o código fonte.<br><br>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dentro da pasta: src<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Criar o arquivo: index.ts
 </p>
+
+- Gera TypeScriptt em JS.
+<pre>npm run build:watch</pre>
+
+- Restarta a API a cada mudança.
+<pre>npm run dev</pre>
+
+<p align="left">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Insomnia<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://insomnia.rest/
+</p>
+
+<pre>
+GET
+http://localhost:5000/test
+</pre>
+
+``
+{
+  "success": true
+}
+``
+
