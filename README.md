@@ -55,9 +55,13 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cluster Name: urlShortener-DIO
 </p>
 
+<hr>
+
 <pre>npm init</pre>
 <pre>npm i typescript @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint</pre>
 <pre>npm i nodemon express cors</pre>
+
+<hr>
 
 <p align="left">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Criar a pasta: src<br>
@@ -69,7 +73,7 @@
 
 <hr>
 
-- Gera TypeScriptt em JS.
+- Gera TypeScript em JS.
 <pre>npm run build:watch</pre>
 
 - Restarta a API a cada mudança.
@@ -88,3 +92,7 @@ http://localhost:5000/test
   "success": true
 }
 </pre>
+
+<hr>
+
+<pre>npm install --save shortid</pre>
