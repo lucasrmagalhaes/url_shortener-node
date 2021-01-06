@@ -130,3 +130,9 @@ http://localhost:5000/shorten
 ``
 
 <hr>
+
+- Acessando via Browser: Dados inseridos direto no banco para teste.
+<pre>http://localhost:5000/VaDg91-3w<pre>
+
+<hr>
+
