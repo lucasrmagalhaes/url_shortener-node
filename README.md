@@ -46,7 +46,7 @@
 <h3 align="center">Iniciando o Projeto</h3>
 
 <p align="left">
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MongoDB é um banco de dados NoSQL orientado à documentos. 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MongoDB é um banco de dados NoSQL orientado à documentos.<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pode ser utilizado instalado localmente ou em Cloud.<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No projeto vai ser utilizado em Cloud.<br><br>
 
@@ -61,11 +61,13 @@
 
 <p align="left">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Criar a pasta: src<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Onde vai ter o código fonte.<br><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Onde vai ter o código fonte.<br>
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dentro da pasta: src<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Criar o arquivo: index.ts
 </p>
+
+<hr>
 
 - Gera TypeScriptt em JS.
 <pre>npm run build:watch</pre>
@@ -73,19 +75,16 @@
 - Restarta a API a cada mudança.
 <pre>npm run dev</pre>
 
+<hr>
+
 <p align="left">
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Insomnia<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://insomnia.rest/
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Testando via GET no <a href="https://insomnia.rest/">Insomnia</a><br>
 </p>
 
-<pre>
-GET
-http://localhost:5000/test
-</pre>
+<pre>http://localhost:5000/test</pre>
 
-``
+``js
 {
   "success": true
 }
 ``
-
