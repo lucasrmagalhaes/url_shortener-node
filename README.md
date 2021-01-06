@@ -48,7 +48,7 @@
 <p align="left">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MongoDB é um banco de dados NoSQL orientado à documentos.<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pode ser utilizado instalado localmente ou em Cloud.<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No projeto vai ser utilizado em Cloud.<br><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No projeto vai ser utilizado em Cloud.<br>
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Build a Cluster.<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Free.<br>
@@ -81,10 +81,10 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Testando via GET no <a href="https://insomnia.rest/">Insomnia</a><br>
 </p>
 
-<pre>http://localhost:5000/test</pre>
+<pre>
+http://localhost:5000/test
 
-``js
 {
   "success": true
 }
-``
+</pre>
