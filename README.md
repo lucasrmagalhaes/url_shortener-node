@@ -82,10 +82,12 @@
 <hr>
 
 <p align="left">
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Testando via GET no <a href="https://insomnia.rest/">Insomnia</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Testando no <a href="https://insomnia.rest/">Insomnia</a><br>
 </p>
 
 <pre>
+GET
+
 http://localhost:5000/test
 
 {
@@ -95,4 +97,36 @@ http://localhost:5000/test
 
 <hr>
 
+- shortid
 <pre>npm install --save shortid</pre>
+
+- Matando o servidor
+<pre>lsof -i tcp:3000</pre>
+<pre>kill -9 5805</pre>
+
+<hr>
+
+<pre>
+POST
+
+http://localhost:5000/shorten
+</pre>
+
+``json
+{
+	"originURL":
+	"https://cloud.mongodb.com/v2/5ff4fd9e15b4cc384aa5e559#clusters"
+}
+``
+
+- Preview
+
+``json
+{
+  "originURL": "https://cloud.mongodb.com/v2/5ff4fd9e15b4cc384aa5e559#clusters",
+  "hash": "VaDg91-3w",
+  "shortURL": "http://localhost:5000/VaDg91-3w"
+}
+``
+
+<hr>
