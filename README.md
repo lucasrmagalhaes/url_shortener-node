@@ -46,10 +46,10 @@
 <h3 align="center">Iniciando o Projeto</h3>
 
 <p align="left">
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MongoDB é um banco de dados NoSQL orientado à documentos. Pode ser utilizado instalado localmente ou em Cloud.
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No projeto vai ser utilizado em Cloud.
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Build a Cluster
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Free
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MongoDB é um banco de dados NoSQL orientado à documentos. Pode ser utilizado instalado localmente ou em Cloud.<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No projeto vai ser utilizado em Cloud.<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Build a Cluster.<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Free.<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cluster Name: urlShortner-DIO
 </p>
 
@@ -57,4 +57,6 @@
 <pre>npm i typescript @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint</pre>
 <pre>npm i nodemon express cors</pre>
 
-Criar a pasta: src | Onde vai ter o código fonte.
+<p align="left">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Criar a pasta: src | Onde vai ter o código fonte.
+</p>

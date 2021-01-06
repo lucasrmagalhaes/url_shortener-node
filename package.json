@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lucasrmagalhaes/encurtadorDeUrl-nodejs.git"
+    "url": "git+https://github.com/lucasrmagalhaes/urlShortener-DIO.git"
   },
   "author": "lucasrmagalhaes",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lucasrmagalhaes/encurtadorDeUrl-nodejs/issues"
+    "url": "https://github.com/lucasrmagalhaes/urlShortener-DIO/issues"
   },
-  "homepage": "https://github.com/lucasrmagalhaes/encurtadorDeUrl-nodejs#readme",
+  "homepage": "https://github.com/lucasrmagalhaes/urlShortener-DIO#readme",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.12.0",
     "@typescript-eslint/parser": "^4.12.0",
