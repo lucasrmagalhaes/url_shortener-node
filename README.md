@@ -1,6 +1,35 @@
-<h1 align="left">
-  Encurtador de URL
-</h1>
+<p align="center">
+  <a href="https://github.com/lucasrmagalhaes/urlShortener-DIO/blob/main/img/urlShortener-gif.gif" target="_blank">
+    <img 
+         src="https://github.com/lucasrmagalhaes/urlShortener-DIO/blob/main/img/urlShortener-gif.gif" 
+         alt="urlShortener" 
+    />
+  </a>
+  <br>
+  Encurtador de URL. :scissors:
+</p>
+
+<p align="center">
+  <a href="https://github.com/lucasrmagalhaes/urlShortener-DIO/blob/main/img/urlShortener-DIO.jpg" target="_blank">
+    <img 
+         src="https://github.com/lucasrmagalhaes/urlShortener-DIO/blob/main/img/urlShortener-DIO.jpg" 
+         alt="Insomnia" 
+    />
+  </a>
+  <br>
+  Testando no Insomnia.
+</p>
+
+<p align="center">
+  <a href="https://github.com/lucasrmagalhaes/urlShortener-DIO/blob/main/img/mongodb-collections.jpg" target="_blank">
+    <img 
+         src="https://github.com/lucasrmagalhaes/urlShortener-DIO/blob/main/img/mongodb-collections.jpg" 
+         alt="Collections no MongoDB - Cloud" 
+    />
+  </a>
+  <br>
+  Collections no MongoDB - Cloud.
+</p>
 
 <h3 align="center">Objetivos do Projeto</h3>
 
