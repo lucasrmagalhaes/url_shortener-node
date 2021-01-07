@@ -31,6 +31,8 @@
   Collections no MongoDB - Cloud.
 </p>
 
+<hr>
+
 <h3 align="center">Objetivos do Projeto</h3>
 
 <ol>
