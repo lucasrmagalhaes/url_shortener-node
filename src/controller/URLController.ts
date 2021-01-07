@@ -23,15 +23,14 @@ export class URLController {
     }
 
     public async redirect(req: Request, response: Response): Promise<void> {
-        // Pegar o hash da URL
+        
         const { hash } = req.params
-        // Encontrar a URL original pelo o hash
-        const url = {
-            originURL: "https://cloud.mongodb.com/v2/5ff4fd9e15b4cc384aa5e559#clusters",
-            hash: 'Z41vvIrNd',
-            shortURL: "http://localhost:5000/Z41vvIrNd"
+        const url = await URLModel.findOne({ hash })
+        
+        if(url) {
+            response.redirect(url.originURL)
+            return
         }
-        // Redirecionar para a URL original a partir do que encontramos no DB
-        response.redirect(url.originURL)
+        response.status(400).json({ error: 'URL not found' })
     } 
 }
