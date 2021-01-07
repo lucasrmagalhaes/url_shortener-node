@@ -110,29 +110,53 @@ http://localhost:5000/test
 POST
 
 http://localhost:5000/shorten
-</pre>
 
-``json
 {
 	"originURL":
 	"https://cloud.mongodb.com/v2/5ff4fd9e15b4cc384aa5e559#clusters"
 }
-``
+</pre>
 
 - Preview
 
-``json
+<pre>
 {
   "originURL": "https://cloud.mongodb.com/v2/5ff4fd9e15b4cc384aa5e559#clusters",
   "hash": "VaDg91-3w",
   "shortURL": "http://localhost:5000/VaDg91-3w"
 }
-``
+</pre>
 
 <hr>
 
 - Acessando via Browser: Dados inseridos direto no banco para teste.
-<pre>http://localhost:5000/VaDg91-3w<pre>
+<pre>http://localhost:5000/VaDg91-3w</pre>
 
 <hr>
 
+- Mongoose
+<pre>npm i mongoose @types/mongoose</pre>
+
+- Typegose
+<pre>npm i @hasezoey/typegoose</pre>
+
+<pre>
+POST
+http://localhost:5000/shorten
+
+JSON
+{
+	"originURL":
+	"https://cloud.mongodb.com/v2/5ff4fd9e15b4cc384aa5e559#clusters"
+}
+
+Preview: 200 OK
+
+{
+  "_id": "5ff670e09f8ffb2f64250618",
+  "hash": "Z41vvIrNd",
+  "shortURL": "http://localhost:5000/Z41vvIrNd",
+  "originURL": "https://cloud.mongodb.com/v2/5ff4fd9e15b4cc384aa5e559#clusters",
+  "__v": 0
+}
+</pre>
