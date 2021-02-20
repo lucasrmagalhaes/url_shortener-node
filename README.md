@@ -1,3 +1,7 @@
+<hr />
+
+<br />
+
 <p align="center">
   <a href="#" target="_blank">
     <img 
@@ -8,7 +12,9 @@
   <br>
   Encurtador de URL. :scissors:
 </p>
-
+<br />
+<hr />
+<br />
 <p align="center">
   <a href="#" target="_blank">
     <img 
@@ -19,6 +25,12 @@
   <br>
   Testando no Insomnia.
 </p>
+
+<br />
+
+<hr />
+
+<br />
 
 <p align="center">
   <a href="#" target="_blank">
@@ -31,7 +43,11 @@
   Collections no MongoDB - Cloud.
 </p>
 
-<hr>
+<br />
+
+<hr />
+
+<br />
 
 <h3 align="center">Objetivos do Projeto</h3>
 
@@ -41,7 +57,7 @@
     <li>Conectar as entradas com os hashes gerados.</li>
 </ol>
 
-<hr>
+<hr />
 
 <h3 align="center">Requisitos Básicos</h3>
 
