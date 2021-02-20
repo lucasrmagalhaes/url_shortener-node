@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/lucasrmagalhaes/urlShortener-DIO/blob/main/img/urlShortener-gif.gif" target="_blank">
+  <a href="#" target="_blank">
     <img 
          src="https://github.com/lucasrmagalhaes/urlShortener-DIO/blob/main/img/urlShortener-gif.gif" 
          alt="urlShortener" 
@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/lucasrmagalhaes/urlShortener-DIO/blob/main/img/urlShortener-DIO.jpg" target="_blank">
+  <a href="#" target="_blank">
     <img 
          src="https://github.com/lucasrmagalhaes/urlShortener-DIO/blob/main/img/urlShortener-DIO.jpg" 
          alt="Insomnia" 
@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/lucasrmagalhaes/urlShortener-DIO/blob/main/img/mongodb-collections.jpg" target="_blank">
+  <a href="#" target="_blank">
     <img 
          src="https://github.com/lucasrmagalhaes/urlShortener-DIO/blob/main/img/mongodb-collections.jpg" 
          alt="Collections no MongoDB - Cloud" 
