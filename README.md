@@ -1,5 +1,4 @@
 <hr />
-
 <br />
 
 <p align="center">
@@ -12,9 +11,10 @@
   <br>
   Encurtador de URL. :scissors:
 </p>
-<br />
+
 <hr />
 <br />
+
 <p align="center">
   <a href="#" target="_blank">
     <img 
@@ -26,10 +26,7 @@
   Testando no Insomnia.
 </p>
 
-<br />
-
 <hr />
-
 <br />
 
 <p align="center">
@@ -43,11 +40,7 @@
   Collections no MongoDB - Cloud.
 </p>
 
-<br />
-
 <hr />
-
-<br />
 
 <h3 align="center">Objetivos do Projeto</h3>
 
